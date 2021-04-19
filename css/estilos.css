@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    max-width: 100%;
+}
+
+
+/* ENCABEZADO */
+
+#portada {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: rgb(113, 209, 238);
+}
+
+#portada p {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: #ffffff;
+    text-shadow: 5px 5px #558ABB;
+}
+
+
+/*CONTENIDO PRINCIPAL*/
+
+#conocenos {
+    display: flex;
+    background-color: rgb(186, 243, 245);
+}
+
+@media (min-width: 400px) {
+    * {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+#conocenos #contenido {
+    margin: 10px;
+    padding: 1rem;
+}
+
+#conocenos #contenido article {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+
+#conocenos #contenido #imagen-doble {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    font-size: 50px;
+}
+
+#conocenos #contenido #parrafo2 {
+    margin-top: 2rem;
+}
+
+
+/*FORMULARIO*/
+
+#conocenos #formulario {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: blueviolet;
+}
+
+#conocenos #formulario #contenido-formulario p {
+    margin: 10px;
+    padding: 1rem;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+
+#formulario #contenido-formulario .campos {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 1rem;
+}

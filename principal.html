@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
+    <title>TAREA CLASE 9</title>
+    <style>
+        @media screen and (max-width: 400px) {
+            body {
+                min-width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            #conocenos #formulario {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="portada">
+            <p> MY FITNESS GYM</p>
+        </div>
+    </header>
+    <section id="conocenos">
+        <div id="contenido" width="75%">
+            <div id="imagen1">
+                <img src="recursos/450_1000.jpg" alt="imagen1" width="100%">
+                <article>gimasio principal</article>
+            </div>
+            <div id="imagen-doble">
+                <div id="imagen2" style=" width: 400px; height: 300px;">
+                    <img src="recursos/53396004_401.jpg" alt="imagen2">
+                    <article>gimasio elloss</article>
+                </div>
+                <div id="imagen3" style="width: 400px; height: 300px;">
+                    <img src="recursos/490x_gimnasio-ejercicio-pesas-chicas-felicidad-770-dreamstime.jpg" alt="imagen3">
+                    <article>gimasio ellas</article>
+                </div>
+            </div>
+            <div id="parrafo2">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui, cum tenetur dolor voluptates modi autem repudiandae, culpa est beatae, quaerat dolorem laboriosam consequuntur veniam dignissimos voluptatum provident magni ad?</p>
+            </div>
+        </div>
+        <div id="formulario" width="25%">
+            <div id="contenido-formulario">
+                <img src="recursos/portada-03.jpg" alt="te llamamos">
+                <p>TE CONTACTAMOS</p>
+                <form name="miformulario" id="miformulario">
+                    <ul class="campos"><input type="text" name="nombre" id="nombre" autocomplete="off" placeholder="Escriba su nombre" width: 80%></ul>
+                    <ul class="campos"><input type="email" name="miemail" id="miemail" placeholder="Escriba su correo"></ul>
+                    <ul class="campos"><input type="tel" name="telefono" id="telefono" min="0" max="10" placeholder="Escriba su telefono"></ul>
+                    <button onclick="alert('Datos enviados')" input style="background-color: rgb(16, 198, 204); color: #ffffff;" type="submit">
+                        Enviar tus datos
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
